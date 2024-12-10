@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite>
+<suite parallel="methods" name="Suite">
+	<listeners>
+		<listener class-name="utilities.ExtentListeners"></listener>
+	</listeners>
+	<test thread-count="3" parallel="methods" name="Test_Sanity">
+	<groups>
+  <run><include name = "Sanity"></include>
+  </run>
+  </groups>
+		<classes>
+			<class name="testpages.PortalLoginTest" />
+			<class name="testpages.PortalLandingTest" />
+			<class name="testpages.SearchPageTest" />
+			<class name="testpages.HomePageTest" />
+			<class name="testpages.EnrollMarketingTest" />
+			<class name="testpages.PlayerDetailsViewTestCardsTab" />
+			<class name="testpages.EnrollContactTest" />
+			<class name="testpages.PrintCardTest" />
+			<class name="testpages.PlayerDetailsViewTestCommentsTab" />
+			<class name="testpages.EnrollPreviewTest" />
+			
+			<class name="testpages.PlayerDetailViewTopPartTest" />
+			<class name="testpages.PlayerDetailsViewTestBasicTab" />
+			<class name="testpages.EnrollIdentificationTest" />
+			<class name="testpages.EnrollPossibleMatchesTest" />
+			<class name="testpages.EnrollAddressTest" />
+			<class name="testpages.PlayerDetailViewTest" />
+		
+			<class name="testpages.PlayerDetailsViewTestRelationsTab" />
+			<class name="testpages.PlayerDetailsViewTestMarketingTab" />
+			<class name="testpages.EnrollBasicTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite>
+<suite  parallel="methods" name="Suite">
+			<listeners>
+			<listener class-name="utilities.ExtentListeners"></listener>
+		</listeners>
+	<test thread-count="3" parallel="methods" name="Test_RedeemComp">
+		<groups>
+			<run>
+				<include name="RedeemComp"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testpages.PlayerDetailsViewTestBasicTab" />
+		</classes>
+
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

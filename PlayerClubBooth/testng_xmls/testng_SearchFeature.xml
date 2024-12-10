@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite>
+<suite parallel="methods" name="SearchSuite">
+	<listeners>
+		<listener class-name="utilities.ExtentListeners"></listener>
+	</listeners>
+	<test thread-count="3" parallel="methods" name="SearchFeature">
+		<classes>
+			<class name="testpages.SearchPageTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
+	

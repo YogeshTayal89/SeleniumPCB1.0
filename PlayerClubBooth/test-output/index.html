@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SearchSuite" class="navigator-link">
+              <span class="suite-name border-failed">SearchSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SearchSuite" class="navigator-link ">
+                    <span>C:\Git_Automation6march\Advantage-Web-Access.PlayersClub\Testing\UI Testing\PlayerClubBooth\testng_xmls\testng_SearchFeature.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SearchSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SearchSuite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SearchSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SearchSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SearchSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SearchSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 1 failed,  3 skipped,  24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SearchSuite" class="hide-methods failed suite-SearchSuite"> (hide)</a> <!-- hide-methods failed suite-SearchSuite -->
+                      <a href="#" panel-name="suite-SearchSuite" class="show-methods failed suite-SearchSuite"> (show)</a> <!-- show-methods failed suite-SearchSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-SearchSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchByPlayerPassportID">verifySearchByPlayerPassportID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SearchSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-SearchSuite" class="hide-methods skipped suite-SearchSuite"> (hide)</a> <!-- hide-methods skipped suite-SearchSuite -->
+                      <a href="#" panel-name="suite-SearchSuite" class="show-methods skipped suite-SearchSuite"> (show)</a> <!-- show-methods skipped suite-SearchSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-SearchSuite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchByPlayerCardNumber">verifySearchByPlayerCardNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchByPlayerDLID">verifySearchByPlayerDLID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchWithSeparatedComma">verifySearchWithSeparatedComma</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-SearchSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SearchSuite" class="hide-methods passed suite-SearchSuite"> (hide)</a> <!-- hide-methods passed suite-SearchSuite -->
+                      <a href="#" panel-name="suite-SearchSuite" class="show-methods passed suite-SearchSuite"> (show)</a> <!-- show-methods passed suite-SearchSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-SearchSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="validatePlayerDetailsBasicTab">validatePlayerDetailsBasicTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="validatePlayerDetailsCardTab">validatePlayerDetailsCardTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="validatePlayerDetailsMarketingTab">validatePlayerDetailsMarketingTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifyEnrollButtonClickable">verifyEnrollButtonClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifyEnrollButtonVisible">verifyEnrollButtonVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifyNoResultFound">verifyNoResultFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifyPlayerSearchButton">verifyPlayerSearchButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchBoxInstruction">verifySearchBoxInstruction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchBoxVisible">verifySearchBoxVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchByEmptyText">verifySearchByEmptyText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchByMaxFiftyNumber">verifySearchByMaxFiftyNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchByMinimumThreeNumber">verifySearchByMinimumThreeNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchByPlayerCardNumber">verifySearchByPlayerCardNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchByPlayerDLID">verifySearchByPlayerDLID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchByPlayerDOB">verifySearchByPlayerDOB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchByPlayerFirstName">verifySearchByPlayerFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchByPlayerID">verifySearchByPlayerID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchByPlayerLastName">verifySearchByPlayerLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchByPlayerMiddleName">verifySearchByPlayerMiddleName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchByPlayerSSNID">verifySearchByPlayerSSNID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchByThreeSeparatedValues">verifySearchByThreeSeparatedValues</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchByplayerFullName">verifySearchByplayerFullName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchCancel">verifySearchCancel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SearchSuite" title="testpages.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchWithSeparatedComma">verifySearchWithSeparatedComma</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SearchSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SearchSuite" class="panel SearchSuite">
+          <div class="suite-SearchSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testpages.SearchPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByPlayerPassportID">
+                  </a> <!-- verifySearchByPlayerPassportID -->
+                  <span class="method-name">verifySearchByPlayerPassportID</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;identi-popup&apos;]&quot;}
+  (Session info: chrome=123.0.6312.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d6e6a0d8677416af28877496365e01a5, findElement {using=xpath, value=//span[@class=&apos;identi-popup&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55192}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55192/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6e6a0d8677416af28877496365e01a5
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)
+	at pageobjects.SearchResultPage.playerPassportId(SearchResultPage.java:99)
+	at testpages.SearchPageTest.verifySearchByPlayerPassportID(SearchPageTest.java:368)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SearchSuite-class-failed -->
+          <div class="suite-SearchSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testpages.SearchPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByPlayerCardNumber">
+                  </a> <!-- verifySearchByPlayerCardNumber -->
+                  <span class="method-name">verifySearchByPlayerCardNumber</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testpages.SearchPageTest.verifySearchByPlayerCardNumber(SearchPageTest.java:278)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByPlayerDLID">
+                  </a> <!-- verifySearchByPlayerDLID -->
+                  <span class="method-name">verifySearchByPlayerDLID</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testpages.SearchPageTest.verifySearchByPlayerDLID(SearchPageTest.java:188)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchWithSeparatedComma">
+                  </a> <!-- verifySearchWithSeparatedComma -->
+                  <span class="method-name">verifySearchWithSeparatedComma</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testpages.SearchPageTest.verifySearchWithSeparatedComma(SearchPageTest.java:60)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SearchSuite-class-skipped -->
+          <div class="suite-SearchSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpages.SearchPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePlayerDetailsBasicTab">
+                  </a> <!-- validatePlayerDetailsBasicTab -->
+                  <span class="method-name">validatePlayerDetailsBasicTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePlayerDetailsCardTab">
+                  </a> <!-- validatePlayerDetailsCardTab -->
+                  <span class="method-name">validatePlayerDetailsCardTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePlayerDetailsMarketingTab">
+                  </a> <!-- validatePlayerDetailsMarketingTab -->
+                  <span class="method-name">validatePlayerDetailsMarketingTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEnrollButtonClickable">
+                  </a> <!-- verifyEnrollButtonClickable -->
+                  <span class="method-name">verifyEnrollButtonClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEnrollButtonVisible">
+                  </a> <!-- verifyEnrollButtonVisible -->
+                  <span class="method-name">verifyEnrollButtonVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNoResultFound">
+                  </a> <!-- verifyNoResultFound -->
+                  <span class="method-name">verifyNoResultFound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPlayerSearchButton">
+                  </a> <!-- verifyPlayerSearchButton -->
+                  <span class="method-name">verifyPlayerSearchButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchBoxInstruction">
+                  </a> <!-- verifySearchBoxInstruction -->
+                  <span class="method-name">verifySearchBoxInstruction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchBoxVisible">
+                  </a> <!-- verifySearchBoxVisible -->
+                  <span class="method-name">verifySearchBoxVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByEmptyText">
+                  </a> <!-- verifySearchByEmptyText -->
+                  <span class="method-name">verifySearchByEmptyText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByMaxFiftyNumber">
+                  </a> <!-- verifySearchByMaxFiftyNumber -->
+                  <span class="method-name">verifySearchByMaxFiftyNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByMinimumThreeNumber">
+                  </a> <!-- verifySearchByMinimumThreeNumber -->
+                  <span class="method-name">verifySearchByMinimumThreeNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByPlayerCardNumber">
+                  </a> <!-- verifySearchByPlayerCardNumber -->
+                  <span class="method-name">verifySearchByPlayerCardNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByPlayerDLID">
+                  </a> <!-- verifySearchByPlayerDLID -->
+                  <span class="method-name">verifySearchByPlayerDLID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByPlayerDOB">
+                  </a> <!-- verifySearchByPlayerDOB -->
+                  <span class="method-name">verifySearchByPlayerDOB</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByPlayerFirstName">
+                  </a> <!-- verifySearchByPlayerFirstName -->
+                  <span class="method-name">verifySearchByPlayerFirstName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByPlayerID">
+                  </a> <!-- verifySearchByPlayerID -->
+                  <span class="method-name">verifySearchByPlayerID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByPlayerLastName">
+                  </a> <!-- verifySearchByPlayerLastName -->
+                  <span class="method-name">verifySearchByPlayerLastName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByPlayerMiddleName">
+                  </a> <!-- verifySearchByPlayerMiddleName -->
+                  <span class="method-name">verifySearchByPlayerMiddleName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByPlayerSSNID">
+                  </a> <!-- verifySearchByPlayerSSNID -->
+                  <span class="method-name">verifySearchByPlayerSSNID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByThreeSeparatedValues">
+                  </a> <!-- verifySearchByThreeSeparatedValues -->
+                  <span class="method-name">verifySearchByThreeSeparatedValues</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByplayerFullName">
+                  </a> <!-- verifySearchByplayerFullName -->
+                  <span class="method-name">verifySearchByplayerFullName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchCancel">
+                  </a> <!-- verifySearchCancel -->
+                  <span class="method-name">verifySearchCancel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchWithSeparatedComma">
+                  </a> <!-- verifySearchWithSeparatedComma -->
+                  <span class="method-name">verifySearchWithSeparatedComma</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SearchSuite-class-passed -->
+        </div> <!-- panel SearchSuite -->
+        <div panel-name="test-xml-SearchSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Git_Automation6march\Advantage-Web-Access.PlayersClub\Testing\UI Testing\PlayerClubBooth\testng_xmls\testng_SearchFeature.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;methods&quot; name=&quot;SearchSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;SearchFeature&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testpages.SearchPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SearchFeature --&gt;
+&lt;/suite&gt; &lt;!-- SearchSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SearchSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SearchSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SearchFeature (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SearchSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SearchSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">RedeemComp</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">validatePlayerDetailsBasicTab</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">RedeemCoupon</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">validatePlayerDetailsMarketingTab</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SearchSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SearchSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SearchSuite');
+function tableData_SearchSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validatePlayerDetailsBasicTab')
+data.setCell(0, 2, 'testpages.SearchPageTest')
+data.setCell(0, 3, 59243);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyPlayerSearchButton')
+data.setCell(1, 2, 'testpages.SearchPageTest')
+data.setCell(1, 3, 42456);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validatePlayerDetailsCardTab')
+data.setCell(2, 2, 'testpages.SearchPageTest')
+data.setCell(2, 3, 40809);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validatePlayerDetailsMarketingTab')
+data.setCell(3, 2, 'testpages.SearchPageTest')
+data.setCell(3, 3, 38205);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifySearchWithSeparatedComma')
+data.setCell(4, 2, 'testpages.SearchPageTest')
+data.setCell(4, 3, 37090);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySearchByPlayerDLID')
+data.setCell(5, 2, 'testpages.SearchPageTest')
+data.setCell(5, 3, 36227);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifySearchByPlayerCardNumber')
+data.setCell(6, 2, 'testpages.SearchPageTest')
+data.setCell(6, 3, 34897);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifySearchByPlayerDOB')
+data.setCell(7, 2, 'testpages.SearchPageTest')
+data.setCell(7, 3, 33186);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifySearchByPlayerPassportID')
+data.setCell(8, 2, 'testpages.SearchPageTest')
+data.setCell(8, 3, 32843);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifySearchByThreeSeparatedValues')
+data.setCell(9, 2, 'testpages.SearchPageTest')
+data.setCell(9, 3, 31215);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifySearchByPlayerSSNID')
+data.setCell(10, 2, 'testpages.SearchPageTest')
+data.setCell(10, 3, 29962);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifySearchByPlayerDLID')
+data.setCell(11, 2, 'testpages.SearchPageTest')
+data.setCell(11, 3, 29338);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifySearchWithSeparatedComma')
+data.setCell(12, 2, 'testpages.SearchPageTest')
+data.setCell(12, 3, 28877);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifySearchByPlayerCardNumber')
+data.setCell(13, 2, 'testpages.SearchPageTest')
+data.setCell(13, 3, 27529);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifySearchByEmptyText')
+data.setCell(14, 2, 'testpages.SearchPageTest')
+data.setCell(14, 3, 26624);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifySearchByPlayerLastName')
+data.setCell(15, 2, 'testpages.SearchPageTest')
+data.setCell(15, 3, 26204);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifySearchByPlayerID')
+data.setCell(16, 2, 'testpages.SearchPageTest')
+data.setCell(16, 3, 25630);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifySearchBoxVisible')
+data.setCell(17, 2, 'testpages.SearchPageTest')
+data.setCell(17, 3, 25455);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifySearchCancel')
+data.setCell(18, 2, 'testpages.SearchPageTest')
+data.setCell(18, 3, 25153);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifySearchByPlayerFirstName')
+data.setCell(19, 2, 'testpages.SearchPageTest')
+data.setCell(19, 3, 24753);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyEnrollButtonClickable')
+data.setCell(20, 2, 'testpages.SearchPageTest')
+data.setCell(20, 3, 24753);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifySearchByPlayerMiddleName')
+data.setCell(21, 2, 'testpages.SearchPageTest')
+data.setCell(21, 3, 24633);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyEnrollButtonVisible')
+data.setCell(22, 2, 'testpages.SearchPageTest')
+data.setCell(22, 3, 24142);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifySearchByplayerFullName')
+data.setCell(23, 2, 'testpages.SearchPageTest')
+data.setCell(23, 3, 23499);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyNoResultFound')
+data.setCell(24, 2, 'testpages.SearchPageTest')
+data.setCell(24, 3, 23235);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifySearchByMinimumThreeNumber')
+data.setCell(25, 2, 'testpages.SearchPageTest')
+data.setCell(25, 3, 22791);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifySearchByMaxFiftyNumber')
+data.setCell(26, 2, 'testpages.SearchPageTest')
+data.setCell(26, 3, 22757);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifySearchBoxInstruction')
+data.setCell(27, 2, 'testpages.SearchPageTest')
+data.setCell(27, 3, 22748);
+window.suiteTableData['SearchSuite']= { tableData: data, tableDiv: 'times-div-SearchSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 minutes</span>
+              <div id="times-div-SearchSuite">
+              </div> <!-- times-div-SearchSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SearchSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SearchSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SearchSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testpages.SearchPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifySearchReEnter</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SearchSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpages.SearchPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">loadConfig</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">codeCleanUp</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">88 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">88 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchBoxVisible</span>
+                <span class="method-start">10875 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchWithSeparatedComma</span>
+                <span class="method-start">11028 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPlayerSearchButton</span>
+                <span class="method-start">11058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">38612 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchBoxInstruction</span>
+                <span class="method-start">44990 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48120 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">48512 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifySearchWithSeparatedComma</span>
+                <span class="method-start">55312 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">60765 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchCancel</span>
+                <span class="method-start">67815 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67963 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">70993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEnrollButtonVisible</span>
+                <span class="method-start">80502 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">84554 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">90384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">93225 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">96605 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEnrollButtonClickable</span>
+                <span class="method-start">97190 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByplayerFullName</span>
+                <span class="method-start">103669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">104990 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">105696 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByPlayerSSNID</span>
+                <span class="method-start">109734 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">122163 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">122867 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByPlayerDLID</span>
+                <span class="method-start">126360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">127331 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">127716 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByPlayerDOB</span>
+                <span class="method-start">134561 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">140007 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">140640 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByPlayerID</span>
+                <span class="method-start">147465 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">162589 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">163927 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByPlayerDLID</span>
+                <span class="method-start">167618 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">167941 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">168348 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">173413 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">174357 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByPlayerFirstName</span>
+                <span class="method-start">175118 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByPlayerMiddleName</span>
+                <span class="method-start">181652 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">197159 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">197524 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">200093 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">200603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByPlayerLastName</span>
+                <span class="method-start">201202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">206511 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">206942 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByPlayerCardNumber</span>
+                <span class="method-start">206996 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByMinimumThreeNumber</span>
+                <span class="method-start">214461 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">227576 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">227994 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByMaxFiftyNumber</span>
+                <span class="method-start">234493 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">237449 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">238165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">241895 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">242313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByThreeSeparatedValues</span>
+                <span class="method-start">245575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByPlayerCardNumber</span>
+                <span class="method-start">249997 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">257450 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">257783 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByEmptyText</span>
+                <span class="method-start">261891 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">277004 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">277538 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">277749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">278448 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySearchByPlayerPassportID</span>
+                <span class="method-start">285234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatePlayerDetailsBasicTab</span>
+                <span class="method-start">286591 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">288773 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">289709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePlayerDetailsCardTab</span>
+                <span class="method-start">296221 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">318269 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">318687 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePlayerDetailsMarketingTab</span>
+                <span class="method-start">322140 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">337288 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">337854 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNoResultFound</span>
+                <span class="method-start">344258 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">346075 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">360498 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">367709 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">368403 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

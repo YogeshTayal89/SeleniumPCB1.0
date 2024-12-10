@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite> 
+<suite parallel="methods" name="Suite">
+	<listeners>
+		<listener class-name="utilities.ExtentListeners"></listener>
+	</listeners>
+	<test thread-count="3" parallel="methods" name="Test_RedeemCoupon">
+		<groups>
+			<run>
+				<include name="RedeemCoupon"></include>
+			</run>
+		</groups>
+		<classes>
+
+			<class name="testpages.PlayerDetailsViewTestMarketingTab" />
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

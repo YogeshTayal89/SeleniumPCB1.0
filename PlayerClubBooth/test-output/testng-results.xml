@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="3" ignored="3" total="31" passed="24" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-02T21:31:46 IST" name="SearchSuite" finished-at="2024-04-02T21:37:54 IST" duration-ms="368071">
+    <groups>
+      <group name="RedeemComp">
+        <method signature="SearchPageTest.validatePlayerDetailsBasicTab()[pri:23, instance:testpages.SearchPageTest@2fb0623e]" name="validatePlayerDetailsBasicTab" class="testpages.SearchPageTest"/>
+      </group> <!-- RedeemComp -->
+      <group name="RedeemCoupon">
+        <method signature="SearchPageTest.validatePlayerDetailsMarketingTab()[pri:23, instance:testpages.SearchPageTest@2fb0623e]" name="validatePlayerDetailsMarketingTab" class="testpages.SearchPageTest"/>
+      </group> <!-- RedeemCoupon -->
+    </groups>
+    <test started-at="2024-04-02T21:31:46 IST" name="SearchFeature" finished-at="2024-04-02T21:37:54 IST" duration-ms="368071">
+      <class name="testpages.SearchPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:31:46 IST" name="loadConfig" finished-at="2024-04-02T21:31:46 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="codeCleanUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:31:46 IST" name="codeCleanUp" finished-at="2024-04-02T21:31:46 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- codeCleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:31:46 IST" name="setUp" finished-at="2024-04-02T21:31:57 IST" duration-ms="10939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:31:46 IST" name="setUp" finished-at="2024-04-02T21:31:57 IST" duration-ms="10787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:31:46 IST" name="setUp" finished-at="2024-04-02T21:31:57 IST" duration-ms="10968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchBoxVisible()[pri:1, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:31:57 IST" name="verifySearchBoxVisible" finished-at="2024-04-02T21:32:22 IST" duration-ms="25455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBoxVisible -->
+        <test-method retried="true" signature="verifySearchWithSeparatedComma()[pri:3, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:31:57 IST" name="verifySearchWithSeparatedComma" finished-at="2024-04-02T21:32:34 IST" duration-ms="37090" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testpages.SearchPageTest.verifySearchWithSeparatedComma(SearchPageTest.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithSeparatedComma -->
+        <test-method signature="verifyPlayerSearchButton()[pri:2, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:31:57 IST" name="verifyPlayerSearchButton" finished-at="2024-04-02T21:32:39 IST" duration-ms="42456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlayerSearchButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:32:22 IST" name="tearDown" finished-at="2024-04-02T21:32:24 IST" duration-ms="2056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:32:24 IST" name="setUp" finished-at="2024-04-02T21:32:31 IST" duration-ms="6378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchBoxInstruction()[pri:4, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:32:31 IST" name="verifySearchBoxInstruction" finished-at="2024-04-02T21:32:53 IST" duration-ms="22748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBoxInstruction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:32:34 IST" name="tearDown" finished-at="2024-04-02T21:32:34 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:32:34 IST" name="setUp" finished-at="2024-04-02T21:32:41 IST" duration-ms="6800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:32:40 IST" name="tearDown" finished-at="2024-04-02T21:32:46 IST" duration-ms="6541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifySearchWithSeparatedComma()[pri:3, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:32:41 IST" name="verifySearchWithSeparatedComma" finished-at="2024-04-02T21:33:10 IST" duration-ms="28877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithSeparatedComma -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:32:46 IST" name="setUp" finished-at="2024-04-02T21:32:54 IST" duration-ms="7050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchCancel()[pri:5, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:32:54 IST" name="verifySearchCancel" finished-at="2024-04-02T21:33:19 IST" duration-ms="25153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchCancel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:32:54 IST" name="tearDown" finished-at="2024-04-02T21:32:57 IST" duration-ms="3029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:32:57 IST" name="setUp" finished-at="2024-04-02T21:33:06 IST" duration-ms="9509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEnrollButtonVisible()[pri:7, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:33:06 IST" name="verifyEnrollButtonVisible" finished-at="2024-04-02T21:33:30 IST" duration-ms="24142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEnrollButtonVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:33:10 IST" name="tearDown" finished-at="2024-04-02T21:33:16 IST" duration-ms="5829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:33:16 IST" name="setUp" finished-at="2024-04-02T21:33:23 IST" duration-ms="6806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:33:19 IST" name="tearDown" finished-at="2024-04-02T21:33:22 IST" duration-ms="3379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:33:22 IST" name="setUp" finished-at="2024-04-02T21:33:29 IST" duration-ms="7064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEnrollButtonClickable()[pri:8, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:33:23 IST" name="verifyEnrollButtonClickable" finished-at="2024-04-02T21:33:48 IST" duration-ms="24753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEnrollButtonClickable -->
+        <test-method signature="verifySearchByplayerFullName()[pri:9, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:33:29 IST" name="verifySearchByplayerFullName" finished-at="2024-04-02T21:33:53 IST" duration-ms="23499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByplayerFullName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:33:31 IST" name="tearDown" finished-at="2024-04-02T21:33:31 IST" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:33:31 IST" name="setUp" finished-at="2024-04-02T21:33:35 IST" duration-ms="4037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchByPlayerSSNID()[pri:10, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:33:35 IST" name="verifySearchByPlayerSSNID" finished-at="2024-04-02T21:34:05 IST" duration-ms="29962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByPlayerSSNID -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:33:48 IST" name="tearDown" finished-at="2024-04-02T21:33:49 IST" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:33:49 IST" name="setUp" finished-at="2024-04-02T21:33:52 IST" duration-ms="3491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="verifySearchByPlayerDLID()[pri:11, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:33:52 IST" name="verifySearchByPlayerDLID" finished-at="2024-04-02T21:34:28 IST" duration-ms="36227" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testpages.SearchPageTest.verifySearchByPlayerDLID(SearchPageTest.java:188)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByPlayerDLID -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:33:53 IST" name="tearDown" finished-at="2024-04-02T21:33:53 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:33:53 IST" name="setUp" finished-at="2024-04-02T21:34:00 IST" duration-ms="6845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchByPlayerDOB()[pri:12, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:34:00 IST" name="verifySearchByPlayerDOB" finished-at="2024-04-02T21:34:33 IST" duration-ms="33186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByPlayerDOB -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:34:06 IST" name="tearDown" finished-at="2024-04-02T21:34:06 IST" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:34:06 IST" name="setUp" finished-at="2024-04-02T21:34:13 IST" duration-ms="6825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchByPlayerID()[pri:13, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:34:13 IST" name="verifySearchByPlayerID" finished-at="2024-04-02T21:34:39 IST" duration-ms="25630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByPlayerID -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:34:28 IST" name="tearDown" finished-at="2024-04-02T21:34:30 IST" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:34:30 IST" name="setUp" finished-at="2024-04-02T21:34:33 IST" duration-ms="3691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchByPlayerDLID()[pri:11, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:34:33 IST" name="verifySearchByPlayerDLID" finished-at="2024-04-02T21:35:03 IST" duration-ms="29338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByPlayerDLID -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:34:34 IST" name="tearDown" finished-at="2024-04-02T21:34:34 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:34:34 IST" name="setUp" finished-at="2024-04-02T21:34:41 IST" duration-ms="6770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:34:39 IST" name="tearDown" finished-at="2024-04-02T21:34:40 IST" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:34:40 IST" name="setUp" finished-at="2024-04-02T21:34:47 IST" duration-ms="7295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchByPlayerFirstName()[pri:14, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:34:41 IST" name="verifySearchByPlayerFirstName" finished-at="2024-04-02T21:35:06 IST" duration-ms="24753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByPlayerFirstName -->
+        <test-method signature="verifySearchByPlayerMiddleName()[pri:15, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:34:47 IST" name="verifySearchByPlayerMiddleName" finished-at="2024-04-02T21:35:12 IST" duration-ms="24633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByPlayerMiddleName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:03 IST" name="tearDown" finished-at="2024-04-02T21:35:03 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:03 IST" name="setUp" finished-at="2024-04-02T21:35:07 IST" duration-ms="3677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:06 IST" name="tearDown" finished-at="2024-04-02T21:35:06 IST" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:06 IST" name="setUp" finished-at="2024-04-02T21:35:13 IST" duration-ms="6393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchByPlayerLastName()[pri:16, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:07 IST" name="verifySearchByPlayerLastName" finished-at="2024-04-02T21:35:33 IST" duration-ms="26204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByPlayerLastName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:12 IST" name="tearDown" finished-at="2024-04-02T21:35:13 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:13 IST" name="setUp" finished-at="2024-04-02T21:35:20 IST" duration-ms="7518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="verifySearchByPlayerCardNumber()[pri:17, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:13 IST" name="verifySearchByPlayerCardNumber" finished-at="2024-04-02T21:35:48 IST" duration-ms="34897" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testpages.SearchPageTest.verifySearchByPlayerCardNumber(SearchPageTest.java:278)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByPlayerCardNumber -->
+        <test-method signature="verifySearchByMinimumThreeNumber()[pri:18, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:20 IST" name="verifySearchByMinimumThreeNumber" finished-at="2024-04-02T21:35:43 IST" duration-ms="22791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByMinimumThreeNumber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:33 IST" name="tearDown" finished-at="2024-04-02T21:35:34 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:34 IST" name="setUp" finished-at="2024-04-02T21:35:40 IST" duration-ms="6499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchByMaxFiftyNumber()[pri:19, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:40 IST" name="verifySearchByMaxFiftyNumber" finished-at="2024-04-02T21:36:03 IST" duration-ms="22757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByMaxFiftyNumber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:43 IST" name="tearDown" finished-at="2024-04-02T21:35:44 IST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:44 IST" name="setUp" finished-at="2024-04-02T21:35:51 IST" duration-ms="7410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:48 IST" name="tearDown" finished-at="2024-04-02T21:35:48 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:48 IST" name="setUp" finished-at="2024-04-02T21:35:56 IST" duration-ms="7684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchByThreeSeparatedValues()[pri:20, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:51 IST" name="verifySearchByThreeSeparatedValues" finished-at="2024-04-02T21:36:22 IST" duration-ms="31215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByThreeSeparatedValues -->
+        <test-method signature="verifySearchByPlayerCardNumber()[pri:17, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:35:56 IST" name="verifySearchByPlayerCardNumber" finished-at="2024-04-02T21:36:23 IST" duration-ms="27529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByPlayerCardNumber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:36:03 IST" name="tearDown" finished-at="2024-04-02T21:36:03 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:36:03 IST" name="setUp" finished-at="2024-04-02T21:36:08 IST" duration-ms="4108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchByEmptyText()[pri:21, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:36:08 IST" name="verifySearchByEmptyText" finished-at="2024-04-02T21:36:34 IST" duration-ms="26624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByEmptyText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:36:23 IST" name="tearDown" finished-at="2024-04-02T21:36:23 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:36:23 IST" name="setUp" finished-at="2024-04-02T21:36:31 IST" duration-ms="7696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:36:23 IST" name="tearDown" finished-at="2024-04-02T21:36:24 IST" duration-ms="698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:36:24 IST" name="setUp" finished-at="2024-04-02T21:36:32 IST" duration-ms="8143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchByPlayerPassportID()[pri:22, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:36:31 IST" name="verifySearchByPlayerPassportID" finished-at="2024-04-02T21:37:04 IST" duration-ms="32843" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='identi-popup']"}
+  (Session info: chrome=123.0.6312.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d6e6a0d8677416af28877496365e01a5, findElement {using=xpath, value=//span[@class='identi-popup']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55192}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55192/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6e6a0d8677416af28877496365e01a5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='identi-popup']"}
+  (Session info: chrome=123.0.6312.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d6e6a0d8677416af28877496365e01a5, findElement {using=xpath, value=//span[@class='identi-popup']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55192}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55192/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6e6a0d8677416af28877496365e01a5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)
+at pageobjects.SearchResultPage.playerPassportId(SearchResultPage.java:99)
+at testpages.SearchPageTest.verifySearchByPlayerPassportID(SearchPageTest.java:368)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByPlayerPassportID -->
+        <test-method signature="validatePlayerDetailsBasicTab()[pri:23, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:36:32 IST" name="validatePlayerDetailsBasicTab" finished-at="2024-04-02T21:37:32 IST" duration-ms="59243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePlayerDetailsBasicTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:36:34 IST" name="tearDown" finished-at="2024-04-02T21:36:35 IST" duration-ms="936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:36:35 IST" name="setUp" finished-at="2024-04-02T21:36:42 IST" duration-ms="6512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatePlayerDetailsCardTab()[pri:23, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:36:42 IST" name="validatePlayerDetailsCardTab" finished-at="2024-04-02T21:37:23 IST" duration-ms="40809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePlayerDetailsCardTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:37:04 IST" name="tearDown" finished-at="2024-04-02T21:37:04 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:37:04 IST" name="setUp" finished-at="2024-04-02T21:37:08 IST" duration-ms="3453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatePlayerDetailsMarketingTab()[pri:23, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:37:08 IST" name="validatePlayerDetailsMarketingTab" finished-at="2024-04-02T21:37:46 IST" duration-ms="38205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePlayerDetailsMarketingTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:37:23 IST" name="tearDown" finished-at="2024-04-02T21:37:24 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:37:24 IST" name="setUp" finished-at="2024-04-02T21:37:30 IST" duration-ms="6404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNoResultFound()[pri:23, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:37:30 IST" name="verifyNoResultFound" finished-at="2024-04-02T21:37:53 IST" duration-ms="23235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoResultFound -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:37:32 IST" name="tearDown" finished-at="2024-04-02T21:37:33 IST" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:37:46 IST" name="tearDown" finished-at="2024-04-02T21:37:46 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:37:53 IST" name="tearDown" finished-at="2024-04-02T21:37:54 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testpages.SearchPageTest@2fb0623e]" started-at="2024-04-02T21:37:54 IST" name="afterSuite" finished-at="2024-04-02T21:37:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testpages.SearchPageTest -->
+    </test> <!-- SearchFeature -->
+  </suite> <!-- SearchSuite -->
+</testng-results>

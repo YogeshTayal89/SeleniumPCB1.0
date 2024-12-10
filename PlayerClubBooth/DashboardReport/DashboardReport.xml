@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testResults version="1.0">
+<httpSample lb="1 -testpages.PortalLoginTest - validateTitle" s="true" t="48">
+<sample/>
+<responseData class="java.lang.String">Passed. No issues observed during execution.</responseData>
+</httpSample>
+</testResults>

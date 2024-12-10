@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Suite" parallel="methods" thread-count="1">
+<listeners>
+		<listener class-name="utilities.ReportListener"></listener>
+		<listener class-name="utilities.ExtentListeners"></listener>
+		<listener class-name="utilities.DashboardReporter"></listener>
+	</listeners>
+ <parameter name="BaseURL" value="${baseurl}"/>
+ <parameter name="BrowserName" value="${browser}"/>
+ <test name="E2E Tests">
+      <classes>
+			<class name="testpages.PortalLoginTest" />
+			<class name="testpages.PortalLandingTest" />
+			<class name="testpages.HomePageTest" />
+			<class name="testpages.EnrollBasicTest" />
+			<class name="testpages.EnrollIdentificationTest" />
+			<class name="testpages.EnrollAddressTest" />
+			<class name="testpages.EnrollContactTest" />
+			<class name="testpages.EnrollMarketingTest" />
+			<class name="testpages.EnrollPreviewTest" />
+			<class name="testpages.EnrollPossibleMatchesTest" />
+			<class name="testpages.PrintCardTest" />
+			<class name="testpages.PlayerDetailViewTest" />
+			<class name="testpages.PlayerDetailViewTopPartTest" />
+			<class name="testpages.PlayerDetailsViewTestBasicTab" />
+			<class name="testpages.PlayerDetailsViewTestCommentsTab" />
+			<class name="testpages.PlayerDetailsViewTestMarketingTab" />
+			<class name="testpages.PlayerDetailsViewTestCardsTab" />
+			<class name="testpages.PlayerDetailsViewTestRelationsTab" />
+			<class name="testpages.SearchPageTest" />
+
+		</classes>
+  </test> <!-- Test --> 
+</suite> <!-- Suite -->
